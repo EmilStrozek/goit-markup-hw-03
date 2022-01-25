@@ -305,7 +305,31 @@ a {
   color: var(--white-txt-color);
 }
 
+
+
+
 /*  PORTFOLIO  */
+
+.filters-list {
+	display: flex;
+	justify-content: center;
+}
+
+.projects-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projects-list-item:not(:nth-child(3n)) {
+	margin-right: 30px;
+}
+
+.projects-list-item {
+	margin-bottom: 30px;
+}
+
+.projects-list-border {
+	border: 1px solid #eeeeee;
 
 .filter-btn {
   font-style: normal;
