@@ -159,14 +159,28 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+  width: 200px; 
+  height: 50px;
+  left: 700px;
+  top: 430px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-txt-color);
-  padding: 200px 0 30px;
-  width: 692px;
-  margin: 0 auto;
+  padding: 10px 41px;
+  margin: 0 auto; 
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 }
 
 .primary-btn:hover {
