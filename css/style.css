@@ -77,9 +77,11 @@ a {
 
 .navigation {
   display: flex;
+  
 }
 .navigation-list {
   display: flex;
+ 
 }
 
 .navigation-list-item:not(:last-child) {
@@ -119,14 +121,16 @@ a {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  /* text-decoration: none;
-  color: #212121; */
+  /* text-decoration: none; */
+  color: #212121;
 }
 
 .email,
 .phone-number {
   color: var(--grey-txt-color);
 }
+
+
 
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus,
@@ -137,9 +141,10 @@ a {
   color: var(--hover-color);
 }
 
-.main-header-container {
+.main-hero-container {
   background-color: var(--dark-background-color);
   height: 600px;
+  width: auto;
 }
 
 .main-header {
@@ -150,6 +155,9 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-txt-color);
+  padding: 200px 0 30px;
+	width: 692px;
+	margin: 0 auto;
 }
 
 .primary-btn {
@@ -159,10 +167,6 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  width: 200px; 
-  height: 50px;
-  left: 700px;
-  top: 430px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -171,16 +175,16 @@ a {
   padding: 10px 41px;
   margin: 0 auto; 
 
-font-family: Roboto;
+/* font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 30px;
 /* identical to box height, or 187% */
-display: flex;
+/* display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 0.06em;
+letter-spacing: 0.06em; */ */
 }
 
 .primary-btn:hover {
@@ -188,6 +192,9 @@ letter-spacing: 0.06em;
 }
 
 /*  NASZE ATUTY / OUR ATRIBUTES  */
+.atributes-list {
+  display:flex
+}
 
 .atributes-list-item-header {
   font-weight: 700;
@@ -195,13 +202,13 @@ letter-spacing: 0.06em;
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 200px 0 30px;
-  width: 692px;
-  margin: 0 auto;
+  /* padding: 200px 0 30px; */
+  /* width: 692px;
+  margin: 0 auto; */
 }
 
 .atributes-list-item-header:not(:last-child) {
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
 .atributes-list-item-text {
   font-size: 14px;
@@ -280,7 +287,6 @@ letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
-
   letter-spacing: 0.03em;
   color: var(--hover-color);
 }
@@ -329,6 +335,11 @@ letter-spacing: 0.06em;
 	justify-content: center;
 }
 
+.filters-list-item:not(:last-child) {
+	padding-right: 8px;
+	padding-bottom: 34px;
+}
+
 .projects-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -344,6 +355,7 @@ letter-spacing: 0.06em;
 
 .projects-list-border {
 	border: 1px solid #eeeeee;
+}
 
 .filter-btn {
   font-style: normal;
