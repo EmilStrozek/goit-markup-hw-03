@@ -1,2 +1,2 @@
-<a href="https://emilstrozek.github.io/goit-markup-hw-04/">goit-markup-hw-04</a> <br> Praca domowa,
-zajęcia 7 i 8, kurs FED
+<a href="https://emilstrozek.github.io/goit-markup-hw-03/">goit-markup-hw-04</a> <br> Praca domowa,
+zajęcia 5 i 6, kurs FED
