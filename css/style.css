@@ -173,8 +173,9 @@ a {
 		url(../images/backgrimg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 1600px;
+	/* width: 1600px; */
 	height: 600px;
+  width: flex;
 	margin: 0 auto;
   /* background-color: var(--dark-background-color);
   height: 600px;
